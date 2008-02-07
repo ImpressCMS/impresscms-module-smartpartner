@@ -235,7 +235,7 @@ class SmartpartnerPartner extends SmartObject
 			}
 		} elseif ($forWhere == 'partner') {
 			if ($this->url()) {
-				return '<a href="' . SMARTPARTNER_URL . 'vpartner.php?id=' . $this->id() . '">';
+				return '<a href="' . SMARTPARTNER_URL . 'vpartner.php?id=' . $this->id() . '" target="_blank">';
 			} else {
 				return '';
 			}

@@ -14,14 +14,14 @@
 					<a href="<{$category.link_view}>"><img class="smartpartner_category_image" src="<{$category.image_url}>" alt="<{$category.title}>" align="left"/></a>
 				<{/if}>
 				<div class="smartpartner_category_block_title">
-					<a href="<{$category.link_view}>"><{$category.title}></a>
+					<a href="<{$category.link_view}>"><{$category.title}></a>&nbsp;(<{$category.partner_count}>)
 				</div>
 				<div class="smartpartner_category_block_dsc">
 					<{$category.description}>
 				</div>
 				<div class="smartpartner_category_subcats">
 					<{foreach item=subcat key=itemnum from=$category.subcats}>
-						<a href="<{$subcat.link_view}>"><{if $itemnum}> | <{/if}><{$subcat.title}></a>
+						<a href="<{$subcat.link_view}>"><{if $itemnum}> | <{/if}><{$subcat.title}></a>&nbsp;(<{$subcat.partner_count}>)
 					<{/foreach}>
 				</div>
 				<div class="smartpartner_clearboth"></div>

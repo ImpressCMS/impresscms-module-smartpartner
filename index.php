@@ -82,6 +82,7 @@ function get_cat_content($every_categories_array, $categoryObj,$level){
 	$category['description'] = $categoryObj->description();
 	$category['link_view'] = $categoryObj->getCategoryUrl();
 	$category['partners'] = get_partners_array($categoryObj->categoryid());
+	$category['partner_count'] = count($category['partners']);
 	$category['image_url'] = $categoryObj->getImageUrl(true);
 	$category['subcats'] = get_subcats($every_categories_array,$categoryObj->categoryid(),$level);
 	return $category;
