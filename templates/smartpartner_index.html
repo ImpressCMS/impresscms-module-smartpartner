@@ -27,6 +27,7 @@
 				<div class="smartpartner_clearboth"></div>
 			</div>
 		<{/if}>
+		<{if !$on_index_page || $show_partners_table}><!-- do not show partners table on index -->
 		<table>
 		<{foreach item=partner from=$category.partners}>
 			<{if $partner.display_type == 'part' || $partner.display_type == 'full'}>
@@ -68,6 +69,7 @@
 			</td>
 		</tr>
 		</table>
+		<{/if}><!-- do not show partners table on index -->
 
 	<{/foreach}>
 <{else}>
@@ -83,5 +85,5 @@
     <td width='50%' align='right'><{$pagenav}></td>
   </tr>
 </table>
-
+<div><{$footer}></div>
 <{include file='db:smartpartner_footer.html'}>

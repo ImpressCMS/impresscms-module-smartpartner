@@ -216,7 +216,15 @@ define("_MI_SPARTNER_DEF_FULL", "Default full view");
 define("_MI_SPARTNER_DEF_FULL_DSC", "");
 define("_MI_SPARTNER_DEF_PART", "Default partial view");
 define("_MI_SPARTNER_DEF_PART_DSC", "");
-
+define("_MI_SPARTNER_FOOTER", "Page Footer");
+define("_MI_SPARTNER_FOOTER_DSC", "");
+define("_MI_SPARTNER_FOOTER_DISP", "Display the footer in:");
+define("_MI_SPARTNER_FOOTER_DISP_DSC", "");
+define("_MI_SPARTNER_FOOTER_DISP_PARTNER", "Partner page");
+define("_MI_SPARTNER_FOOTER_DISP_INDEX", "Index page");
+define("_MI_SPARTNER_FOOTER_DISP_BOTH", "Both");
+define("_MI_SPARTNER_SHOW_PARTNERS_INDEX", "Show partners table on index page");
+define("_MI_SPARTNER_SHOW_PARTNERS_INDEXDSC", "If you select 'No', you must be in a category page to see the partner listing.");
 
 
 ?>

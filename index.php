@@ -173,6 +173,10 @@ $xoopsTpl->assign('lang_no_partners', _MD_SPARTNER_NOPART);
 $xoopsTpl->assign('lang_main_partner', _MD_SPARTNER_PARTNERS);
 $xoopsTpl->assign('lang_readmore', _MD_SPARTNER_READMORE);
 $xoopsTpl->assign('partview_msg', $xoopsModuleConfig['partview_msg']);
+$xoopsTpl->assign('show_partners_table', $xoopsModuleConfig['show_partners_index']);
+if($xoopsModuleConfig['footer_display'] == 'index' || $xoopsModuleConfig['footer_display'] == 'both'){
+	$xoopsTpl->assign('footer', $xoopsModuleConfig['footer'] );
+}
 if(!$xoopsModuleConfig['hide_module_name']){
 	$xoopsTpl->assign('lang_partnerstitle', $myts->displayTarea($xoopsModule->getVar('name')));
 }

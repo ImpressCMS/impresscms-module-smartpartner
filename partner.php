@@ -123,7 +123,9 @@ $xoopsTpl->assign('lang_backtoindex', _MD_SPARTNER_BACKTOINDEX);
 $xoopsTpl->assign('modulepath', SMARTPARTNER_URL);
 $xoopsTpl->assign('lang_private', _CO_SPARTNER_PRIVATE);
 $xoopsTpl->assign('partview_msg', $myts->xoopsCodeDecode($myts->displayTarea($xoopsModuleConfig['partview_msg'], 1)));
-
+if($xoopsModuleConfig['footer_display'] == 'partner' || $xoopsModuleConfig['footer_display'] == 'both'){
+	$xoopsTpl->assign('footer', $xoopsModuleConfig['footer'] );
+}
 $show_stats_block = false;
 if ($xoopsUser) {
 	foreach($xoopsModuleConfig['stats_group'] as $group) {

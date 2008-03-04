@@ -233,6 +233,37 @@ $modversion['config'][$i]['category'] = 'permissions';
 
 
 $i++;
+$modversion['config'][$i]['name'] = 'footer';
+$modversion['config'][$i]['title'] = '_MI_SPARTNER_FOOTER';
+$modversion['config'][$i]['description'] = '_MI_SPARTNER_FOOTER_DSC';
+$modversion['config'][$i]['formtype'] = 'textarea';
+$modversion['config'][$i]['valuetype'] = 'text';
+$modversion['config'][$i]['default'] = '';
+$modversion['config'][$i]['category'] = 'format_options';
+
+$i++;
+$modversion['config'][$i]['name'] = 'footer_display';
+$modversion['config'][$i]['title'] = '_MI_SPARTNER_FOOTER_DISP';
+$modversion['config'][$i]['description'] = '_MI_SPARTNER_FOOTER_DISP_DSC';
+$modversion['config'][$i]['formtype'] = 'select';
+$modversion['config'][$i]['valuetype'] = 'text';
+$modversion['config'][$i]['options'] = array(_MI_SPARTNER_FOOTER_DISP_INDEX  => 'index',
+                                   			 _MI_SPARTNER_FOOTER_DISP_PARTNER => 'partner',
+                                   			 _MI_SPARTNER_FOOTER_DISP_BOTH => 'both'
+                                  		 );
+$modversion['config'][$i]['default'] = 'both';
+$modversion['config'][$i]['category'] = 'format_options';
+
+$i++;
+$modversion['config'][$i]['name'] = 'show_partners_index';
+$modversion['config'][$i]['title'] = '_MI_SPARTNER_SHOW_PARTNERS_INDEX';
+$modversion['config'][$i]['description'] = '_MI_SPARTNER_SHOW_PARTNERS_INDEXDSC';
+$modversion['config'][$i]['formtype'] = 'yesno';
+$modversion['config'][$i]['valuetype'] = 'int';
+$modversion['config'][$i]['default'] = 1;
+$modversion['config'][$i]['category'] = 'format_options';
+
+$i++;
 $modversion['config'][$i]['name'] = 'useimagenavpage';
 $modversion['config'][$i]['title'] = '_MI_SPARTNER_USEIMAGENAVPAGE';
 $modversion['config'][$i]['description'] = '_MI_SPARTNER_USEIMAGENAVPAGEDSC';
