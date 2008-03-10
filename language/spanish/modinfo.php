@@ -206,6 +206,14 @@ define("_MI_SPARTNER_DEF_FULL", "Vista completa por defecto");
 define("_MI_SPARTNER_DEF_FULL_DSC", "");
 define("_MI_SPARTNER_DEF_PART", "Vista parcial por defecto");
 define("_MI_SPARTNER_DEF_PART_DSC", "");
-
-
+//Añadido en rev. 1124
+define("_MI_SPARTNER_FOOTER", "Pie de Página");
+define("_MI_SPARTNER_FOOTER_DSC", "");
+define("_MI_SPARTNER_FOOTER_DISP", "Mostrar el pie de página:");
+define("_MI_SPARTNER_FOOTER_DISP_DSC", "");
+define("_MI_SPARTNER_FOOTER_DISP_PARTNER", "Página del patrocinador");
+define("_MI_SPARTNER_FOOTER_DISP_INDEX", "Página Índice");
+define("_MI_SPARTNER_FOOTER_DISP_BOTH", "Ambos");
+define("_MI_SPARTNER_SHOW_PARTNERS_INDEX", "Mostrar la lista de los patrocinadores en la página índice");
+define("_MI_SPARTNER_SHOW_PARTNERS_INDEXDSC", "Si selecciona 'No' solo verá la lista de patrocinadores en las páginas de las distintas categorías.");
 ?>
