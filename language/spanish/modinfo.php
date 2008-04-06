@@ -156,22 +156,21 @@ define('_MI_SPARTNER_MODULE_SUPPORT', "Sitio oficial de soporte");
 define('_MI_SPARTNER_MODULE_BUG', "Reportar un error de este módulo");
 define('_MI_SPARTNER_MODULE_SUBMIT_BUG', "Remitir un error");
 define('_MI_SPARTNER_MODULE_FEATURE', "Sugerir una nueva función o característica para este módulo");
-define('_MI_SPARTNER_MODULE_SUBMIT_FEATURE', "Requerir una función");
+define('_MI_SPARTNER_MODULE_SUBMIT_FEATURE', "Solicitar una función");
 define('_MI_SPARTNER_MODULE_DISCLAIMER', "Advertencia");
-define('_MI_SPARTNER_AUTHOR_WORD', "Comentarios del autorT");
+define('_MI_SPARTNER_AUTHOR_WORD', "Comentarios del autor");
 define('_MI_SPARTNER_VERSION_HISTORY', "Historia de las versiones");
 define('_MI_SPARTNER_BY', "Por");
 
 // Beta
 define('_MI_SPARTNER_WARNING_BETA', "Este módulo se proporciona como es, sin ninguna garantía.
-Este módulo es BETA, lo que significa que todavía está en activo desarrollo. Esta versión es proporcionada <b>solo con la finalidad de testear</b> y nosotros <b>encarecidamente</b> recomendamos que no la uses en un sitio web o en una página estable.");
+Este módulo es BETA, lo que significa que todavía está en activo desarrollo. Esta versión es proporcionada <b>solo con la finalidad de testear</b> y nosotros <b>encarecidamente</b> recomendamos que no la use en un sitio web final.");
 
 // RC
-define('_MI_SPARTNER_WARNING_RC', "Este módulo se proporciona como es, sin ninguna garantía. Este módulo es una Versión Candidata y no debería ser usada en un 'production web site'. Está todavía bajo desarrollo y su lo usas es bajo tu propia responsabilidad, lo que significa que su autor no es responsable.");
+define('_MI_SPARTNER_WARNING_RC', "Este módulo se proporciona como es, sin ninguna garantía. Este módulo es una Versión Candidata y no debería ser usada en un 'production web site'. Está todavía bajo desarrollo y su lo usa es bajo su propia responsabilidad, lo que significa que su autor no es responsable.");
 
 // Final
-define('_MI_SPARTNER_WARNING_FINAL', "Este módulo se proporciona como es, sin ninguna garantía. 
-Aúnque no es una versión beta todavía está bajo desarrollo. Esta versión puede ser usada en un sitio web o entorno de producción pero bajo tu propia responsabilidad; el autor no es responsable..");
+define('_MI_SPARTNER_WARNING_FINAL', "Este módulo se proporciona como es, sin ninguna garantía. Aunque no es una versión beta todavía está bajo desarrollo. Esta versión puede ser usada en un sitio web o entorno de producción pero bajo su propia responsabilidad; el autor no es responsable.");
 
 //added with categories
 define('_MI_SPARTNER_CATEGORIES', "Categorías");
@@ -207,12 +206,12 @@ define("_MI_SPARTNER_DEF_FULL_DSC", "");
 define("_MI_SPARTNER_DEF_PART", "Vista parcial por defecto");
 define("_MI_SPARTNER_DEF_PART_DSC", "");
 //Añadido en rev. 1124
-define("_MI_SPARTNER_FOOTER", "Pie de Página");
+define("_MI_SPARTNER_FOOTER", "Pie de página");
 define("_MI_SPARTNER_FOOTER_DSC", "");
 define("_MI_SPARTNER_FOOTER_DISP", "Mostrar el pie de página:");
 define("_MI_SPARTNER_FOOTER_DISP_DSC", "");
 define("_MI_SPARTNER_FOOTER_DISP_PARTNER", "Página del patrocinador");
-define("_MI_SPARTNER_FOOTER_DISP_INDEX", "Página Índice");
+define("_MI_SPARTNER_FOOTER_DISP_INDEX", "Página índice");
 define("_MI_SPARTNER_FOOTER_DISP_BOTH", "Ambos");
 define("_MI_SPARTNER_SHOW_PARTNERS_INDEX", "Mostrar la lista de los patrocinadores en la página índice");
 define("_MI_SPARTNER_SHOW_PARTNERS_INDEXDSC", "Si selecciona 'No' solo verá la lista de patrocinadores en las páginas de las distintas categorías.");
