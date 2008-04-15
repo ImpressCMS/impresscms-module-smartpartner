@@ -33,7 +33,7 @@
 			<{if $partner.display_type == 'part' || $partner.display_type == 'full'}>
 				<tr valign="top">
 				    <td valign="top" width="<{$img_max_width}>" class="smartpartner_leftcol" align='center'>
-						<a href='<{$smartpartner_url}>partner.php?id=<{$partner.id}>&cid=<{$category.categoryid}>'><img src='<{$partner.image}>' alt='<{$partner.title}>' title='<{$partner.title}>' /></a><br><br>
+						<a href='<{$smartpartner_url}>partner.php?id=<{$partner.id}>&cid=<{$category.categoryid}>'><img src='<{$partner.image}>' alt='<{$partner.title}>' title='<{$partner.title}>' /></a><br /><br />
 						<{if $partner.update_status == 'new'}>
 						<img src='<{$smartpartner_url}>images/icon/new_icon.gif' />
 				       <{elseif $partner.update_status == 'updated'}>
