@@ -13,9 +13,9 @@ if (file_exists($fileName)) {
 } else {
 	include_once XOOPS_ROOT_PATH . '/modules/smartpartner/language/german/common.php';
 }
-define('_MB_SPARTNER_PARTNERS_PSPACE', 'M&ouml;chten Sie Leerzeichen zwischen den Partnern?');
-define('_MB_SPARTNER_BRAND', 'Sollen die Partner wilk&uuml;rlich im Block angezeigt werden?');
-define('_MB_SPARTNER_BLIMIT', 'Limitiere Block auf xx Eintr&auml;ge: (0 = kein Limit)');
+define('_MB_SPARTNER_PARTNERS_PSPACE', 'Möchten Sie Leerzeichen zwischen den Partnern?');
+define('_MB_SPARTNER_BRAND', 'Sollen die Partner wilkürlich im Block angezeigt werden?');
+define('_MB_SPARTNER_BLIMIT', 'Limitiere Block auf xx Einträge: (0 = kein Limit)');
 define('_MB_SPARTNER_BSHOW', 'Im Bock zeige:');
 define('_MB_SPARTNER_BORDER', 'Ordne im Block nach:');
 define('_MB_SPARTNER_ID', 'ID');

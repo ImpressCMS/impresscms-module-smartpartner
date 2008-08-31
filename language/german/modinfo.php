@@ -9,14 +9,14 @@
 
 define('_MI_SPARTNER_ADMENU1', 'Hauptindex');
 define('_MI_SPARTNER_ADMENU2', 'Partner');
-define('_MI_SPARTNER_ADMENU3', 'Bl&ouml;cke');
+define('_MI_SPARTNER_ADMENU3', 'Blöcke');
 define('_MI_SPARTNER_ADMENU4', 'Gruppen');
 define('_MI_SPARTNER_ADMENU5', 'Zum Modul');
 
 define('_MI_SPARTNER_PARTNERS_NAME', 'SmartPartner');
-define('_MI_SPARTNER_PARTNERS_DESC', 'Partners Management System for your XOOPS 2.x site');
+define('_MI_SPARTNER_PARTNERS_DESC', 'Partners Management System for your ImpressCMS site');
 define('_MI_SPARTNER_PARTNERS_ADMIN', 'Partner bearbeiten');
-define('_MI_SPARTNER_PARTNERS_ADMIN_ADD', 'Partner hinzuf&uuml;gen');
+define('_MI_SPARTNER_PARTNERS_ADMIN_ADD', 'Partner hinzufügen');
 define('_MI_SPARTNER_ID', 'ID');
 define('_MI_SPARTNER_HITS', 'Treffer');
 define('_MI_SPARTNER_TITLE', 'Titel');
@@ -25,7 +25,7 @@ define('_MI_SPARTNER_RECLICK', 'Reclick Zeit:');
 define('_MI_SPARTNER_IMAGES', 'Bilder');
 define('_MI_SPARTNER_TEXT', 'Text Links');
 define('_MI_SPARTNER_BOTH', 'Beides');
-define('_MI_SPARTNER_MLIMIT', 'Limitiere Hauptseite auf xx Eintr&auml;ge: (0 = kein Limit)');
+define('_MI_SPARTNER_MLIMIT', 'Limitiere Hauptseite auf xx Einträge: (0 = kein Limit)');
 define('_MI_SPARTNER_MSHOW', 'Zeige auf der Hauptseite:');
 define('_MI_SPARTNER_INDEX_SORTBY', 'Sortiere die Hauptseite nach :');
 define('_MI_SPARTNER_INDEX_SORTBY_DSC', '');
@@ -60,14 +60,14 @@ define('_MI_SPARTNER_BLOCK_CATEGORIES_LIST_DESC', 'Der Block zeigt die Kategorie
 define('_MI_SPARTNER_PAGE_PARTNER', 'Partnerseiten');
 define('_MI_SPARTNER_PAGE_INDEX', 'Indexseite');
 
-define("_MI_SPARTNER_ALLOWSUBMIT", "Partner &uuml;bermittlungen");
-define("_MI_SPARTNER_ALLOWSUBMITDSC", "Erlaube Partner &uuml;bermittlungen auf deiner Web Seite ?");
+define("_MI_SPARTNER_ALLOWSUBMIT", "Partner übermittlungen");
+define("_MI_SPARTNER_ALLOWSUBMITDSC", "Erlaube Partner übermittlungen auf deiner Web Seite ?");
 
-define("_MI_SPARTNER_ANONPOST", "Erlaube anonyme &uuml;bermittlungen");
-define("_MI_SPARTNER_ANONPOSTDSC", "Erlaube anonymen Usern einen Partner zu &uuml;bermitteln");
+define("_MI_SPARTNER_ANONPOST", "Erlaube anonyme übermittlungen");
+define("_MI_SPARTNER_ANONPOSTDSC", "Erlaube anonymen Usern einen Partner zu übermitteln");
 
-define('_MI_SPARTNER_AUTOAPPROVE', "Automatische Best&auml;tigung &uuml;bermittelter Partner");
-define('_MI_SPARTNER_AUTOAPPROVE_DSC', "Automatische Best&auml;tigung &uuml;bermittelter Partner ohne Administrator Eingriff.");
+define('_MI_SPARTNER_AUTOAPPROVE', "Automatische Bestätigung übermittelter Partner");
+define('_MI_SPARTNER_AUTOAPPROVE_DSC', "Automatische Bestätigung übermittelter Partner ohne Administrator Eingriff.");
 
 define('_MI_SPARTNER_PERCAT_USER', "Maximale Partner pro Kategorie (Indexseite):");
 define('_MI_SPARTNER_PERCAT_USER_DSC', "Maximale Anzahl von Partnern pro Kategorie, die pro Kategorie auf der Userseite angezeigt werden.");
@@ -80,7 +80,7 @@ define('_MI_SPARTNER_PERPAGE_ADMIN_DSC', "Maximale Anzahl Partner pro Seite die 
 
 define('_MI_SPARTNER_WELCOMEMSG', 'Willkommens Meldung:');
 define('_MI_SPARTNER_WELCOMEMSG_DSC', 'Willkommens Meldung die auf der Index Seite diese Moduls angezeigt wird.');
-define('_MI_SPARTNER_WELCOMEMSG_DEF', "Hier sehen Sie die Partner dieser Seite. - Klicken Sie auf das Logo um n&auml;here Informationen zu erhalten."); 
+define('_MI_SPARTNER_WELCOMEMSG_DEF', "Hier sehen Sie die Partner dieser Seite. - Klicken Sie auf das Logo um nähere Informationen zu erhalten."); 
 
 define('_MI_SPARTNER_USEIMAGENAVPAGE', 'Verwende die Bilder Seitennavigation:');
 define('_MI_SPARTNER_USEIMAGENAVPAGEDSC', 'Wenn Sie diese Option auf "Ja" setzen, wird die Seitennavigation mit Hilfe von Bildern angezeigt, ansonsten wir die Original Seitennavigation verwendet.');
@@ -88,22 +88,22 @@ define('_MI_SPARTNER_USEIMAGENAVPAGEDSC', 'Wenn Sie diese Option auf "Ja" setzen
 define('_MI_SPARTNER_IMG_MAX_WIDTH', "Maximale Weite der Partner Logos:");
 define('_MI_SPARTNER_IMG_MAX_WIDTH_DSC', "Setzen Sie hier die maximale erlaubte Weite des Logos ein. Dies ist zugleich auch die Weite der ersten Spalte der Partner Index Seite.");
 
-define('_MI_SPARTNER_IMG_MAX_HEIGHT', "Maximale H&ouml;he der Partner Logos:");
-define('_MI_SPARTNER_IMG_MAX_HEIGHT_DSC', "Setzen Sie hier die maximale erlaubte H&ouml;he des Logos ein.");
+define('_MI_SPARTNER_IMG_MAX_HEIGHT', "Maximale Höhe der Partner Logos:");
+define('_MI_SPARTNER_IMG_MAX_HEIGHT_DSC', "Setzen Sie hier die maximale erlaubte Höhe des Logos ein.");
 
 define('_MI_SPARTNER_HELP_PATH_SELECT', "Verzeichnis der SmartPartner Hilfe Dateien");
 define('_MI_SPARTNER_HELP_PATH_SELECT_DSC', "Select from where you would like to access SmartPartner's help files. If you downloaded the 'SmartPartner's Help Package' and uploaded it in 'modules/smartpartner/doc/', you can select 'Inside the module'. Alternatively, you can access the module's help file directly from docs.xoops.org by chosing this in the selector. You can also select 'Custom Path' and specify yourself the path of the help files in the next config option 'Custom path of SmartPartner's help files'");
 
-define('_MI_SPARTNER_HELP_PATH_CUSTOM', "Pers&ouml;nliches Verzeichnis der SmartPartner Hilfe Dateien");
+define('_MI_SPARTNER_HELP_PATH_CUSTOM', "Persönliches Verzeichnis der SmartPartner Hilfe Dateien");
 define('_MI_SPARTNER_HELP_PATH_CUSTOM_DSC', "If you selected 'Custom path' in the previous option 'Path of SmartPartner's help files', please specify the URL of SmartPartner's help files, in that format : http://www.yoursite.com/doc");
 
 define('_MI_SPARTNER_HELP_INSIDE', "Im Modul");
-define('_MI_SPARTNER_HELP_CUSTOM', "Pers&ouml;nliches Verzeichnis");
+define('_MI_SPARTNER_HELP_CUSTOM', "Persönliches Verzeichnis");
 
 define('_MI_SPARTNER_STATS_GROUP', "Zeige den Statistik Block diesen Gruppen");
-define('_MI_SPARTNER_STATS_GROUP_DSC', "W&auml;hle die Gruppen denen der Statistik Block auf der Partner Seite angezeigt wird.");
+define('_MI_SPARTNER_STATS_GROUP_DSC', "Wähle die Gruppen denen der Statistik Block auf der Partner Seite angezeigt wird.");
 
-define("_MI_SPARTNER_HIGHLIGHT_COLOR", "Farbe die f&uuml;r die Hervorhebung der Suchw&ouml;rter verwendet werden soll");
+define("_MI_SPARTNER_HIGHLIGHT_COLOR", "Farbe die für die Hervorhebung der Suchwörter verwendet werden soll");
 define("_MI_SPARTNER_HIGHLIGHT_COLORDSC", "");
 
 define("_MI_SPARTNER_HIDE_MOD_NAME", "Verstecke den Modulnamen auf den Benutzer Seiten");
@@ -122,15 +122,15 @@ define('_MI_SPARTNER_GLOBAL_PARTNER_NOTIFY_DSC', "Benachrichtigungsoptionen die 
 define('_MI_SPARTNER_PARTNER_NOTIFY', "Partner");
 define('_MI_SPARTNER_PARTNER_NOTIFY_DSC', "Benachrichtigungsoptionen die auf den aktuellen Partner angewendet werden.");
 
-define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY', "Partner &uuml;bermittelt");
-define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY_CAP', "Benachrichtige mich wenn ein Partner &uuml;bermittelt wurde und auf Best&auml;tigung wartet.");
-define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY_DSC', "Erhalte Nachricht wenn ein Partner &uuml;bermittelt wurde und auf Best&auml;tigung wartet.");
-define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY_SBJ', "[{X_SITENAME}] {X_MODULE} Automatische-Benachrichtigung : Neuer Partner &uuml;bermittelt");
+define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY', "Partner übermittelt");
+define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY_CAP', "Benachrichtige mich wenn ein Partner übermittelt wurde und auf Bestätigung wartet.");
+define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY_DSC', "Erhalte Nachricht wenn ein Partner übermittelt wurde und auf Bestätigung wartet.");
+define('_MI_SPARTNER_GLOBAL_PARTNER_SUBMITTED_NOTIFY_SBJ', "[{X_SITENAME}] {X_MODULE} Automatische-Benachrichtigung : Neuer Partner übermittelt");
 
-define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY', "Partner best&auml;tigt");
-define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY_CAP', "Benachrichtige mich wenn dieser Partner best&auml;tigt wird.");   
-define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY_DSC', "Erhalte Nachricht wenn dieser Partner best&auml;tigt wird.");      
-define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY_SBJ', "[{X_SITENAME}] {X_MODULE} Automatische-Benachrichtigung : Partner best&auml;tigt"); 
+define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY', "Partner bestätigt");
+define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY_CAP', "Benachrichtige mich wenn dieser Partner bestätigt wird.");   
+define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY_DSC', "Erhalte Nachricht wenn dieser Partner bestätigt wird.");      
+define('_MI_SPARTNER_PARTNER_APPROVED_NOTIFY_SBJ', "[{X_SITENAME}] {X_MODULE} Automatische-Benachrichtigung : Partner bestätigt"); 
 
 define("_MI_SPARTNER_GLOBAL_PARTNER_NEW_NOTIFY", "Neuer Partner");
 define("_MI_SPARTNER_GLOBAL_PARTNER_NEW_NOTIFY_CAP", "Notify me when any new partner is published.");
@@ -185,10 +185,10 @@ is not responsible.");
 
 //added with categories
 define('_MI_SPARTNER_CATEGORIES', "Kategorien");
-define("_MI_SSPARTNER_MAX_SIZEDSC", "Maximale Gr&ouml;sse (in bytes) eines Bildes zum Upload.");
-define("_MI_SSPARTNER_MAX_SIZE", "Maximale Bildgr&ouml;sse");
+define("_MI_SSPARTNER_MAX_SIZEDSC", "Maximale Grösse (in bytes) eines Bildes zum Upload.");
+define("_MI_SSPARTNER_MAX_SIZE", "Maximale Bildgrösse");
 define("_MI_SPARTNER_ORPHAN_FIRST", "Zeige verweiste Partner zuerst?");
-define("_MI_SPARTNER_ORPHAN_FIRST_DSC", "Bei Auswahl 'Ja', wird er Partner ohne Kategoriezugeh&ouml;rigkeit vor den Kategorien auf der Indexseite angezeigt.");
+define("_MI_SPARTNER_ORPHAN_FIRST_DSC", "Bei Auswahl 'Ja', wird er Partner ohne Kategoriezugehörigkeit vor den Kategorien auf der Indexseite angezeigt.");
 
 define("_MI_SPARTNER_SORT", "Sort offers by");
 define("_MI_SPARTNER_SORT_DSC", "");
