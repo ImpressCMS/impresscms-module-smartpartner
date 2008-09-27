@@ -1,3 +1,7 @@
+<b><u>=> Version 2.1 (????-??-??)</u></b>
+
+- Changed: references to class/xoopsmodule.php to kernel/module.php (vaughan)
+
 <b><u>=> Version 2.0 (2007-09-19)</u></b>
 
 - Addition of multiple category for a partner.
